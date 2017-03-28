@@ -17,7 +17,7 @@
 
       <% @castings.each do |casting| %>
       <tr>
-        <td><%= casting.actor_id %></td>
+        <td><%= casting.actor.name %></td>
         <td><%= casting.movies_id %></td>
         <td><%= casting.character_name %></td>
         <td>
